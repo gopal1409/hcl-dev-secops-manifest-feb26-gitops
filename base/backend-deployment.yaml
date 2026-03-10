@@ -26,7 +26,8 @@ spec:
 
         env:
         - name: SPRING_DATASOURCE_URL
-          value: jdbc:mysql://mariadb:3306/lnd_db
+          value: jdbc:mariadb://mariadb:3306/lnd_db
+          
 
         - name: SPRING_DATASOURCE_USERNAME
           value: root
